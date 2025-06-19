@@ -25,6 +25,7 @@ cargo new <project_name>
 ```bash
 rustfmt src/main.rs
 ```
+
 #### Ensures consistent code style using Rust's official formatter.
 
 ### ✅ Build and Run the Project
@@ -32,4 +33,9 @@ rustfmt src/main.rs
 ```bash
 cargo run
 ```
+
 #### Compiles and executes the main.rs file in the current project.
+
+```bash
+cargo run --release
+```
